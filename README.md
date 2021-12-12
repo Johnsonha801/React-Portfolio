@@ -20,4 +20,4 @@ Deployed Application: [Personal Portfolio]()
 GitHub profile [Johnsonha801](https://github.com/Johnsonha801)
 
 ## Application
-![Working Project Screenshot]()
+![Working Project Screenshot](https://user-images.githubusercontent.com/84554237/145734316-d328ca98-53ce-4b02-b66a-cf58356d89de.png)
