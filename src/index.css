@@ -1,0 +1,137 @@
+:root {
+  --main-bg: #292929;
+  --primary-color: #BA5AF6;
+  --primary-hover-color: #C178EE;
+}
+
+* {
+  color: #ffffff;
+  
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: 'Source Code Pro', monospace, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bg);
+}
+
+h2 {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #1F1F1F;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+main {
+  padding: 50px 25px;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+}
+
+.primary-button:hover {
+  background-color: var(--primary-hover-color);
+  color: #FFFFFF;
+}
+.wrapper {
+  padding-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  opacity: .80;
+  margin: 25px 15px;
+  position: relative;
+  width: 325px;
+}
+.card:hover {
+  box-shadow: 0 0 15px 8px rgba(33,33,33,.8); 
+  opacity: 1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+form {
+  max-width: 600px;
+}
+
+.form-control {
+  color: #FFFFFF;
+}
+.form-control:focus {
+  color: var(--primary-hover-color);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer .fab {
+  opacity: 0.4;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.fab:hover {
+  opacity: 1;
+  color: var(--primary-hover-color);
+}
+
+.card-deck {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.github-button {
+  padding: 0 !important;
+  margin-right: 15px;
+}
+
+.list-group-item {
+  background-color: var(--main-bg);
+}
+
+.profile-image {
+  max-width: 250px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-image {
+    margin: 0 auto;
+    display: block;
+    
+    width: 100%;
+    text-align: center;
+  }
+}
