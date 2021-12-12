@@ -2,7 +2,7 @@
 
 ## Description
 
-Showcasing my best work using the latest technologies. This application was developed using 100% React to create an easy-to-navigate user interface that displays other projects that I have worked on. Learn about me, Brad Cassity, and see some of the projects I have been working on recently. Users can contact me from the contact form on the site. 
+Showcasing my best work using the latest technologies. This application was developed using 100% React to create an easy-to-navigate user interface that displays other projects that I have worked on. Learn about me, Johnson Ha, and see some of the projects I have been working on recently. Users can contact me from the contact form on the site. 
 
 ## Tech Used
   * Javascript
@@ -11,9 +11,9 @@ Showcasing my best work using the latest technologies. This application was deve
 
 ## Usage
 
-Users can use this application to learn more about Brad Cassity and view recent work on his portfolio.
+Users can use this application to learn more about Johnson Ha and view recent work on his portfolio.
 
-Deployed Application: [Personal Portfolio]()
+Deployed Application: [Personal Portfolio](https://git.heroku.com/desolate-wave-75613.git)
 
 ## Questions
 
